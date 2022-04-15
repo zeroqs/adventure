@@ -38,8 +38,8 @@
 
         <main class="page">
             <div class="page-main__container">
-                <div class="page__descriprtion desc-block desc-block_left ">
-                    <picture><source srcset="img/first-image.webp" type="image/webp"><img src="img/first-image.png" alt="image-phone" /></picture>
+                <div class="page__descriprtion desc-block desc-block_left">
+                    <img src="img/first-image.png" alt="image-phone" />
                     <div class="text-about">
                         <span class="decoration-header"
                             >EAST nUSA TENGGARA</span
@@ -59,12 +59,31 @@
                     </div>
                 </div>
                 <div class="carousel">
-                    <ul>
-                        <li><picture><source srcset="img/carousel-image.webp" type="image/webp"><img src="img/carousel-image.png" alt=""></picture></li>
-                    </ul>
+                    <button id="prevBtn"><img  class="button-carousel prevBtn" src="img/arrow.svg" alt=""></button>
+                    <button id="nextBtn"><img class="button-carousel nextBtn" src="img/arrow.svg" alt=""></button>
+                    <div class="carousel-slide">
+                        <img src="img/carousel-image1.png" id='lastClone' alt="" />
+                        <img src="img/carousel-image1.png" alt="" />
+                        <img src="img/carousel-image1.png" alt="" />
+                        <img src="img/carousel-image1.png" alt="" />
+                        <img src="img/carousel-image1.png" alt="" />
+                        <img src="img/carousel-image1.png" id='firstClone' alt="" />
+                    </div>
+                    <div class="text-about text-about_center">
+                        <span class="decoration-header"
+                            >Bromo</span
+                        >
+                        <h1 class="header__text_bold header__main">
+                            Steady your steps, we will climb together!
+                        </h1>
+                        <p class="desctiption">
+                            Enjoying the vast expanse of the sea of ​​​​sand, witnessing the splendor of Mount Semeru that soars into the sky, and gazing at the beauty of the sun moving out of its bed or otherwise enjoying the dim twilight from the Bromo ridge is an unforgettable experience when visiting Bromo.
+                        </p>
+                        <a href="#" class="more">read more</a>
+                    </div>
                 </div>
-                <div class="page__descriprtion desc-block desc-block_right ">
-                    <picture><source srcset="img/second-image.webp" type="image/webp"><img src="img/second-image.jpg" alt="image-phone" /></picture>
+                <div class="page__descriprtion desc-block desc-block_right">
+                    <img src="img/second-image.jpg" alt="image-phone" />
                     <div class="text-about">
                         <span class="decoration-header"
                             >INDONESIAN CULTURE</span
@@ -73,14 +92,73 @@
                             Our culture here is very friendly to people
                         </h1>
                         <p class="desctiption">
-                            known for his politeness, manners and gentleness. This becomes a characteristic when they mingle with other tribes and become basic traits that are passed down by their ancestors.                        </p>
+                            known for his politeness, manners and gentleness.
+                            This becomes a characteristic when they mingle with
+                            other tribes and become basic traits that are passed
+                            down by their ancestors.
+                        </p>
                         <a href="#" class="more">read more</a>
                     </div>
                 </div>
             </div>
         </main>
-        <footer class="main-footer">
-    
+        <footer class="main-footer" style="margin-top:250px">
+    <div class="up-footer__container">
+        <a href="#"><img class="logo__footer" src="img/logo.svg" alt=""></a>
+        <button class="up-footer__started">Get started</button>
+    </div>
+    <div class="down-footer__container">
+        <div class="down-footer__email">
+            <h2 class="down-footer__header-mail">Let's go on vacation,<br/> Make your day</h2>
+            <form class="down-footer__form" action="#">
+                <input type="email" placeholder="Email address" autocomplete="off">
+                <button class="down-footer__button"><img src="img/arrowb.svg" alt=""></button>
+            </form>
+        </div>
+        <div class="down-footer__links">
+            <div class="down-footer__services">
+                <ul>
+                    <li class="down-footer__header"><a href="#">Services</a></li>
+                    <li><a href="#">Email Marketing</a></li>
+                    <li><a href="#">Campaigns</a></li>
+                    <li><a href="#">Branding</a></li>
+                    <li><a href="#">Offline</a></li>
+                </ul>
+            </div>
+            <div class="down-footer__about">
+                <ul>
+                    <li class="down-footer__header"><a href="#">About</a></li>
+                    <li><a href="#">Our Story</a></li>
+                    <li><a href="#">Benefits</a></li>
+                    <li><a href="#">Team</a></li>
+                    <li><a href="#">Careers</a></li>
+                </ul>
+            </div>
+            <div class="down-footer__help">
+                <ul>
+                    <li class="down-footer__header"><a href="#">Help</a></li>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+    <div class="down-footer__social social__container">
+        <div class="terms">
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Privacy Policy</a>
+        </div>
+        <div class="socials">
+            <a href="#" class="_icon-facebook"></a>
+            <a href="#" class="_icon-twitter"></a>
+            <a href="#" class="_icon-instagram"></a>
+        </div>
+    </div>
 </footer> <script src="js/app.min.js"></script>
+
     </body>
+    <script>
+
+    </script>
 </html>
